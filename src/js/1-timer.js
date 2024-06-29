@@ -63,6 +63,7 @@ function startCountdown() {
 function finishCountdown(id) {
   clearInterval(id);
   enableInputElem();
+  enableButtonElem();
 }
 
 function tick(msLeft) {

@@ -1,0 +1,73 @@
+.wrapper {
+  margin: 20px 8px 0px;
+}
+
+#datetime-picker {
+  padding: 8px 16px;
+  margin-bottom: 32px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 272px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  cursor: not-allowed;
+}
+
+#datetime-picker.inp-enabled {
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 9px 16px;
+  min-width: 75px;
+  background: #cfcfcf;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #989898;
+  cursor: not-allowed;
+}
+
+.btn-enabled {
+  background-color: #4e75ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.enabled:hover,
+.enabled:focus {
+  background: #6c8cff;
+}
+
+.timer {
+  display: flex;
+  gap: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  text-transform: uppercase;
+}
